@@ -1,0 +1,16 @@
+{
+  "name": "cucumber-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wdio.conf.js",
+  "devDependencies": {
+    "selenium-webdriver": "^3.6.0",
+    "chromedriver": "^2.33.1",
+    "cucumber": "^3.0.5"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js"
+  },
+  "author": "",
+  "license": "ISC"
+}
